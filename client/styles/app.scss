@@ -1,0 +1,57 @@
+body {
+  font: 100% $font-lato;
+  font-weight: 400;
+  color: $dark-gray-color;
+  letter-spacing: 0.075rem;
+}
+
+input,
+textarea,
+select,
+button {
+  letter-spacing: 0.075rem;
+}
+
+.loader {
+  width: auto;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../images/loader.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.react-bs-table table {
+  min-width: 1000px;
+}
+
+.search-box-element {
+  display: block;
+  box-sizing: border-box;
+  width: 10%;
+  height: 3rem;
+  padding: 3px 6px;
+  border: 1px solid $light-gray-color;
+  margin: 0 0 1rem;
+  font-family: inherit;
+  font-size: 1.25rem;
+  color: $medium-gray-color;
+  background-color: $white-color;
+  border-radius: 1px;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+}
+.label-style {
+  margin-top: 66px;
+font-size: 3rem
+}
+.fc-content-name,.fc-content-category,.fc-content-nationality,.fc-content-contractExpiry,.fc-content-penalties,.fc-content-workRate{
+  font-size: 1.5rem;
+}
+.fc-content-name {
+  width: 200px;
+}
+.Name {
+  width: 200px;
+}
+.sort-column,.nationality ,.contractExpiry,.penalties,.workRate{
+  font-size: 2rem;
+}
